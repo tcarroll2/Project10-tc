@@ -57,13 +57,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         guard let feed = feed else { return }
         statusItem.menu?.removeAllItems()
         for forecast in feed["hourly"].arrayValue.prefix(10) {
-            //print ("\(forecast)")
             let date = Date(timeIntervalSince1970: forecast["dt"].doubleValue)
             let formatter = DateFormatter()
             formatter.timeStyle = .short
             let formattedDate = formatter.string(from: date)
             let summary = forecast["weather"][0]["description"].stringValue
-            // print ("\(summary)")
             let temperature = forecast["temp"].intValue
             let title = "\(formattedDate): \(summary) (\(temperature)°)"
             let menuItem = NSMenuItem(title: title, action: nil, keyEquivalent: "")
