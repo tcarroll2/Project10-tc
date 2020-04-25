@@ -12,6 +12,7 @@
 		FAA3EF6A2452661000F6082B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA3EF692452661000F6082B /* Assets.xcassets */; };
 		FAA3EF6D2452661000F6082B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA3EF6B2452661000F6082B /* Main.storyboard */; };
 		FAA3EF762452667000F6082B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAA3EF752452667000F6082B /* README.md */; };
+		FAA3EF7824527EF400F6082B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3EF7724527EF400F6082B /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FAA3EF6E2452661000F6082B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA3EF6F2452661000F6082B /* Project10_tc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project10_tc.entitlements; sourceTree = "<group>"; };
 		FAA3EF752452667000F6082B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAA3EF7724527EF400F6082B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FAA3EF672452661000F6082B /* ViewController.swift */,
 				FAA3EF692452661000F6082B /* Assets.xcassets */,
 				FAA3EF6B2452661000F6082B /* Main.storyboard */,
+				FAA3EF7724527EF400F6082B /* SwiftyJSON.swift */,
 				FAA3EF6E2452661000F6082B /* Info.plist */,
 				FAA3EF6F2452661000F6082B /* Project10_tc.entitlements */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA3EF7824527EF400F6082B /* SwiftyJSON.swift in Sources */,
 				FAA3EF682452661000F6082B /* ViewController.swift in Sources */,
 				FAA3EF662452661000F6082B /* AppDelegate.swift in Sources */,
 			);
